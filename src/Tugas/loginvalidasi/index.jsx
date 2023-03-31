@@ -46,10 +46,10 @@ class Index extends React.Component {
         
         // Menggunakan javascript regex email
         // https://www.google.com/search?q=javascript+regex+email&oq=javascript+regex+e&aqs=chrome.0.0i512l2j69i57j0i512l7.6292j0j9&sourceid=chrome&ie=UTF-8
-        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if(re.test(String(email).toLowerCase())){
-            pesanError = [...pesanError," email tidak valid"]
-        }
+        // const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        // if(re.test(String(email).toLowerCase())){
+        //    pesanError = [...pesanError," email tidak valid"]
+        // }
 
         //output
         if(pesanError.length > 0 ){
